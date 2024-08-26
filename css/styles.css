@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ---------- HEADER OPEN ---------- */
+
+header {
+  background-color: #edae38;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid white;
+  padding: 5px 200px;
+}
+
+.header-right {
+  width: 45%;
+  max-width: 550px;
+}
+
+.header-right ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-right ul li {
+  list-style: none;
+}
+
+.header-right ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: 0.2s color
+}
+
+.header-right ul li a:hover {
+  color: white;
+}
+
+/* ----- HEADER CLOSER ----- */
+
+
+
+/* ---------- HERO OPEN ---------- */
+.hero {
+  display: flex;
+  background-image: url('../images/hero-image.jpg');
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h3 {
+  display: inline;
+  font-size: 48px;
+  background: white;
+  padding: 10px 50px;
+  border-radius: 4px;
+}
+
+
+/* ----- HERO CLOSER ----- */
+
+
+
+
+/* ---------- CATEGORIES OPEN ---------- */ 
+.categories {
+  /* background-color: lightblue; */
+  padding: 100px 0;
+}
+
+.categories-container {
+  background-color: white;
+  height: 80%;
+  max-width: 1200px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.categories-title {
+  font-size: 36px;
+  margin-bottom: 24px
+}
+
+.categories-para {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.cate-image-row {
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  justify-content: space-between;
+}
+
+.cate-image-col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;;
+}
+
+.cate-image-col img {
+  border-radius: 4px;
+  width: 100%; 
+  height: auto;
+  max-height: 180px;
+  object-fit: cover;
+  object-position: center;
+  flex: 1; 
+  margin-bottom: 12px;
+}
+
+
+
+/* ----- CATEGORIES CLOSER ----- */
+
+
+
+
+/* ---------- HEALTHY OPEN ---------- */
+.healthy {
+  background-color: #d1d8db;
+  padding: 100px 0;
+}
+
+.healthy-container {
+  /* background-color: white; */
+  height: 80%;
+  max-width: 1200px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.healthy-title {
+  font-size: 36px;
+  margin-bottom: 24px
+}
+
+.healthy-para {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.healthy-image-row {
+  display: grid;
+  grid-template-columns: repeat(4, 22%);
+  justify-content: space-between;
+}
+
+.healthy-image-col {
+  border-radius: 4px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;;
+}
+
+.healthy-image-col img {
+  border-radius: 4px 4px 0 0;
+  width: 100%; 
+  height: auto;
+  max-height: 180px;
+  object-fit: cover;
+  object-position: center;
+  flex: 1; 
+  margin-bottom: 12px;
+}
+
+.healthy-image-col p {
+  margin-bottom: 12px;
+}
+
+/* ----- HEALTHY CLOSER ----- */
+
+
+
+
+/* ---------- WHERE OPEN ---------- */
+.where {
+  /* background-color: lightpink; */
+  padding: 100px 0;
+}
+
+.where-container {
+  background-color: white;
+  height: 80%;
+  max-width: 1200px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.where-title {
+  font-size: 36px;
+  margin-bottom: 24px
+}
+
+.where-para {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.where-image-row {
+  display: grid;
+  grid-template-columns: repeat(3, 28%);
+  justify-content: space-between;
+}
+
+.where-image-col {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;;
+}
+
+.where-image-col img {
+  border-radius: 4px;
+  width: 100%; 
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  flex: 1; 
+  margin-bottom: 12px;
+  padding: 6px;
+  background-color: #d1d8db;
+}
+
+.where-image-col p {
+  margin-bottom: 12px;
+}
+
+/* ----- HEALTHY CLOSER ----- */
+
+
+
+
+/* ---------- FOOTER OPEN ---------- */
+
+footer {
+  display: flex;
+  width: 100%;
+  background-color: #edae38;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 200px;
+}
+
+.footer-left a {
+  text-decoration: none;
+  color: black;
+  transition: 0.2s color;
+}
+
+.footer-left a:hover {
+  color: white;
+}
+
+.footer-right {
+  width: 45%;
+  max-width: 550px;
+}
+
+.footer-right ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-right ul li {
+  list-style: none;
+}
+
+.footer-right ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: 0.2s color;
+}
+
+.footer-right ul li a:hover {
+  color: white;
+}
+
+/* ----- HEADER CLOSER ----- */
