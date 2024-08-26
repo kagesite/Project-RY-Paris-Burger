@@ -104,22 +104,34 @@ header {
 }
 
 .cate-image-col {
+  border-radius: 4px;
   display: flex;
   flex-direction: column;
   width: 100%;
   text-align: center;
   font-size: 14px;
-  font-weight: 500;;
+  font-weight: 500;
+  transition: 0.2s all;
+  cursor: pointer;
+}
+
+.cate-image-col:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 10px 15px 2px #868686;;
 }
 
 .cate-image-col img {
-  border-radius: 4px;
+  border-radius: 4px 4px 0 0;
   width: 100%; 
   height: auto;
   max-height: 180px;
   object-fit: cover;
   object-position: center;
   flex: 1; 
+  margin-bottom: 12px;
+}
+
+.cate-image-col p {
   margin-bottom: 12px;
 }
 
@@ -168,7 +180,14 @@ header {
   width: 100%;
   text-align: center;
   font-size: 14px;
-  font-weight: 500;;
+  font-weight: 500;
+  transition: 0.2s all;
+  cursor: pointer;
+}
+
+.healthy-image-col:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 10px 15px 2px #868686;;
 }
 
 .healthy-image-col img {
@@ -228,8 +247,16 @@ header {
   width: 100%;
   text-align: center;
   font-size: 14px;
-  font-weight: 500;;
+  font-weight: 500;
+  transition: 0.2s all;
+  cursor: pointer;
 }
+
+.where-image-col:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 10px 15px 2px #868686;;
+}
+
 
 .where-image-col img {
   border-radius: 4px;
