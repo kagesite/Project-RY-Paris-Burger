@@ -15,7 +15,7 @@ header {
   align-items: center;
   justify-content: space-between;
   border-bottom: 3px solid white;
-  padding: 5px 200px;
+  padding: 5px 5%;
 }
 
 .header-right {
