@@ -94,7 +94,7 @@ header {
 
 .categories-para {
   font-size: 20px;
-  margin-bottom: 24px;
+  margin-bottom: 36px;
 }
 
 .cate-image-row {
@@ -124,7 +124,7 @@ header {
   border-radius: 4px 4px 0 0;
   width: 100%; 
   height: auto;
-  max-height: 180px;
+  max-height: 200px;
   object-fit: cover;
   object-position: center;
   flex: 1; 
@@ -163,7 +163,7 @@ header {
 
 .healthy-para {
   font-size: 20px;
-  margin-bottom: 24px;
+  margin-bottom: 36px;
 }
 
 .healthy-image-row {
@@ -231,7 +231,7 @@ header {
 
 .where-para {
   font-size: 20px;
-  margin-bottom: 24px;
+  margin-bottom: 36px;
 }
 
 .where-image-row {
