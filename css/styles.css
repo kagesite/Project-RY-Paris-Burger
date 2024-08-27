@@ -367,11 +367,11 @@ footer {
 /* ---------- TIME OPEN ---------- */
 .time {
   width: 100%;
-  background-color: #ccc;
+  background-color: #d1d8db;
 }
 
 .time-container {
-  background-color: lightpink;
+  /* background-color: lightpink; */
   height: 80%;
   max-width: 1200px;
   width: 70%;
@@ -381,7 +381,7 @@ footer {
 
 .time-title {
   font-size: 36px;
-  margin-bottom: 24px
+  margin-bottom: 12px
 }
 
 .time-desc {
@@ -390,6 +390,113 @@ footer {
   grid-template-columns: 25% 25% 25%;
 }
 
+.time-desc strong {
+  margin-right: 8px;
+}
+
 .time-desc p {
   margin-bottom: 20px;
 }
+
+
+/* ----- TIME CLOSE ----- */
+
+
+
+
+/* ---------- BURGER OPEN ---------- */
+.burger {
+  margin: 100px 0;
+}
+
+.burger-container {
+  background-color: white;
+  height: 80%;
+  max-width: 1200px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.burger-top {
+  display: flex;
+  flex-direction: column;
+  /* background-color: lightblue; */
+  align-items: center;
+  margin: 0 0 32px;
+}
+
+.burger-top h3 {
+  font-size: 36px;
+  margin-bottom: 12px
+}
+
+.burger-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.burger-rating span {
+  font-size: 18px;
+}
+
+.burger-rating p {
+  margin-left: 12px;;
+}
+
+.save-btn {
+  background-color: rgb(187, 31, 31);
+  border: none;
+  padding: 7px 18px;
+  border-radius: 20px;
+  color: white;
+  margin-right: 12px;
+}
+
+.print-btn {
+  padding: 7px 10px;
+  border: 1px solid #d1d8db;
+  border-radius: 20px;
+}
+
+.quote {
+  background-color: #e8edef;
+  width: 100%;
+  text-align: center;
+  padding: 32px 100px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #5f5f5f;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* background-color: lightpink; */
+  width: 100%;
+  padding: 60px 0 0;
+}
+
+.bottom-title {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.ingredients ul, .directions ol {
+  list-style-position: inside;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.ingredients ul li, .directions ol li {
+  font-size: 14px;
+}
+
+.ingredients h4, .directions h4 {
+  transform: translateX(20px);
+}
+
+
+
+
+/* ----- BURGER CLOSE ----- */
