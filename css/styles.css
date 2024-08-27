@@ -7,6 +7,8 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* --------------- HOME PAGE OPEN--------------- */
+
 /* ---------- HEADER OPEN ---------- */
 
 header {
@@ -327,4 +329,67 @@ footer {
   color: white;
 }
 
-/* ----- HEADER CLOSER ----- */
+/* ----- FOOTER CLOSER ----- */
+
+/* --------------- HOME PAGE CLOSE--------------- */
+
+
+
+
+
+
+
+
+
+
+/* --------------- RECIPE PAGE OPEN--------------- */
+
+.recipe-hero {
+  display: flex;
+  background-image: url('../images/burger-hero.jpg  ');
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-hero h3 {
+  display: inline;
+  font-size: 48px;
+  background: white;
+  padding: 10px 50px;
+  border-radius: 4px;
+}
+
+/* ----- HEADER CLOSE ----- */
+
+/* ---------- TIME OPEN ---------- */
+.time {
+  width: 100%;
+  background-color: #ccc;
+}
+
+.time-container {
+  background-color: lightpink;
+  height: 80%;
+  max-width: 1200px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.time-title {
+  font-size: 36px;
+  margin-bottom: 24px
+}
+
+.time-desc {
+  max-width: 80%;
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+}
+
+.time-desc p {
+  margin-bottom: 20px;
+}
