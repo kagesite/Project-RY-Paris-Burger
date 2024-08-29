@@ -433,7 +433,7 @@ footer {
 .burger-rating {
   display: flex;
   align-items: center;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 
 .burger-rating span {
@@ -451,12 +451,27 @@ footer {
   border-radius: 20px;
   color: white;
   margin-right: 12px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background-color: #edae38;
 }
 
 .print-btn {
   padding: 7px 10px;
   border: 1px solid #d1d8db;
   border-radius: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.print-btn:hover {
+  background-color: #edae38;
+  color: white;
+  border: 1px solid #edae38;
+  
 }
 
 .quote {
