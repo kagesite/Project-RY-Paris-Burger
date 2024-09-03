@@ -510,8 +510,23 @@ footer {
 .ingredients h4, .directions h4 {
   transform: translateX(20px);
 }
-
-
-
-
 /* ----- BURGER CLOSE ----- */
+
+
+
+
+/* ---------- HELP OPEN ---------- */
+
+.help-container {
+  background-color: lightpink;
+  height: 80%;
+  max-width: 1050px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.help h3 {
+  font-size: 36px;
+  margin-bottom: 12px
+}
